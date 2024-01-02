@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+#points {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: 1px solid #0005;
+  border-top: 1px solid #0005;
+  padding: .5rem 2rem;
+  background-color: #00000010;
+  box-shadow:
+    0 .2rem .4rem #0004 inset,
+    0 -.2rem .4rem #0004 inset;
+  border-radius: .4rem;
+  color: rgb(30, 0, 138);
+}
+
+#screen {
+  width: 512;
+  image-rendering: pixelated;
+  border: 5px solid #888888;
+  background-color: #28da22;
+  box-shadow: -.2rem .5rem .7rem #0004;
+}
